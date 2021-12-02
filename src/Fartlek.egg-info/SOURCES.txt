@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Fartlek/__init__.py
+src/Fartlek/datagen.py
+src/Fartlek/models.py
+src/Fartlek/plot.py
+src/Fartlek/pre_processing.py
+src/Fartlek/result_evaluate.py
+src/Fartlek/testdatagen.py
+src/Fartlek.egg-info/PKG-INFO
+src/Fartlek.egg-info/SOURCES.txt
+src/Fartlek.egg-info/dependency_links.txt
+src/Fartlek.egg-info/top_level.txt

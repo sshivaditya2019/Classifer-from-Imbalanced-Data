@@ -1,7 +1,5 @@
 '''Data generation for simulation of class imbalance'''
 
-
-
 import numpy as np
 import numbers
 import pandas as pd
@@ -99,6 +97,8 @@ def make_blobs(
         return X, y, centers
     else:
         return X, y
+
+
 
 def check_random_state(seed):
 
@@ -265,3 +265,10 @@ def gen_overlappingRareBorder(
     Y = np.concatenate((Y1,Y2), axis = 0 )
     y = np.concatenate((Y[:(n_samples//2)],constadd(Y[(n_samples//2)::],val)),axis = 0)
     return (X,y)
+
+if __name__ == '__main__':
+    X,y = make_blobs()
+    print(X.shape)
+    print(y.shape)
+    print(X)
+    print(y)
